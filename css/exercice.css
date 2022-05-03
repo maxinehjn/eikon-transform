@@ -1,11 +1,76 @@
 /* 1. TRANSFORM: ROTATE */
+.exercice-transform-rotate .block-blue {
+  transform: rotate(45deg);
+}
 
 /* 2. TRANSFORM: TRANSLATE */
+.exercice-transform-translate .block-blue {
+  transform: translate(100%);
+}
 
 /* 3. TRANSFORM: SCALE */
+.exercice-transform-scale .block-blue {
+  transform: scale(0.5);
+}
 
 /* 4. ABSOLUTE & TRANSFORM */
+.exercice-absolute-transform .block-green {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.exercice-absolute-transform .block-blue {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.exercice-absolute-transform .block-red {
+  position: absolute;
+  right: 50%;
+  top: 0;
+  transform: translate(50%);
+}
 
 /* 5. ABSOLUTE & TRANSFORM II */
+.exercice-absolute-transform-2 .block-green {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.exercice-absolute-transform-2 .block-red {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.exercice-absolute-transform-2 .block-blue {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
 
 /* 6. ALL-IN */
+.exercice-all-in .block-green {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.exercice-all-in .block-red {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.exercice-all-in .block-blue {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-50%, -50%) scale(2);
+}
