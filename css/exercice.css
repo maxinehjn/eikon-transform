@@ -3,11 +3,44 @@
 transform: rotate(45deg);
 }
 /* 2. TRANSFORM: TRANSLATE */
+.exercice-transform-translate .block-blue {
 
+}
 /* 3. TRANSFORM: SCALE */
 
 /* 4. ABSOLUTE & TRANSFORM */
 
 /* 5. ABSOLUTE & TRANSFORM II */
+.exercice-absolute-transform-2 .container {
+  position: relative;
+}
+
+.exercice-absolute-transform-2 .block {
+  position: absolute;
+  transform: translate(0%, 150%);
+}
+
+.exercice-absolute-transform-2 .block-blue {
+  top: 0;
+  right: 0;
+}
 
 /* 6. ALL-IN */
+.exercice-all-in .container {
+position: relative;
+}
+
+.exercice-all-in .block {
+  position: absolute;
+}
+
+.exercice-all-in .block-black {
+  transform: translate(390%, 150%) rotate(45deg);
+}
+
+.exercice-all-in .block-blue {
+  bottom: 0;
+  right: 0;
+  transform: scale(2);
+  transform-origin: 100% 100%;
+}
