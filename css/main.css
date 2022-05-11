@@ -92,12 +92,11 @@ section:last-child {
   display: flex;
 }
 
-.exercice .sandbox {
+.exercice .container {
   width: 50%;
   min-height: 210px;
   border: 4px dashed var(--black);
   box-sizing: border-box;
-  position: relative;
   background: var(--white);
   background-image: url(../img/bg-grid.png);
   background-position: center center;
